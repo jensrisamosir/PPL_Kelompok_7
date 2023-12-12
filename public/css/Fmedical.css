@@ -1,0 +1,12 @@
+.card{
+    /* font-weight: 10; */
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1800px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}

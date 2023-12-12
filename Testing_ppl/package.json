@@ -1,0 +1,31 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:asisten",
+    "test:login": "npx wdio --spec .\\test\\specs\\auth\\test.e2e.js",
+    "test:obat": "npx wdio --spec .\\test\\specs\\obat\\obat.e2e.js",
+    "test:ApiGetObat": "npx wdio --spec .\\test\\specs\\obat\\getObat.e2e.js",
+    "test:ApiPostObat": "npx wdio --spec .\\test\\specs\\obat\\postObat.e2e.js",
+    "test:asisten": "npx wdio --spec .\\test\\specs\\asisten\\asisten.e2e.js",
+    "test:ApiGetAsisten": "npx wdio --spec .\\test\\specs\\asisten\\getAsisten.e2e.js",
+    "wdio": "wdio run .\\wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.24.3",
+    "axios": "^1.6.2",
+    "webdriverio": "^8.26.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.24.2",
+    "@wdio/local-runner": "^8.24.3",
+    "@wdio/mocha-framework": "^8.24.3",
+    "@wdio/spec-reporter": "^8.24.2",
+    "chromedriver": "^119.0.1"
+  }
+}

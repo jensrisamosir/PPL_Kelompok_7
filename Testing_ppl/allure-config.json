@@ -1,0 +1,8 @@
+{
+    "cleanDir": true,
+    "resultsDir": "allure-results",
+    "reportDir": "allure-report",
+    "disableWebdriverStepsReporting": true,
+    "disableWebdriverScreenshotsReporting": false
+  }
+  
